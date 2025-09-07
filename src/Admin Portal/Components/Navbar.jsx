@@ -7,7 +7,7 @@ import Notifications from './Notifications';
 
 function Navbar() {
   return (
-    <div className='flex  items-center p-2 shadow-md bg-gray-100'>
+    <div className='flex items-center p-2 shadow-md bg-gray-100'>
         <button className="text-2xl m-1">
         <Sidebar />
         </button>
