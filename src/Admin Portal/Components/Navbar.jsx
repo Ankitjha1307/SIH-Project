@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChalkboardTeacher, faBell } from "@fortawesome/free-solid-svg-icons";
+import {faUserTie} from "@fortawesome/free-solid-svg-icons";
 import Logo from './Logo'
 import Sidebar from './Sidebar';
 import Notifications from './Notifications';
@@ -14,7 +14,7 @@ function Navbar() {
         <Logo />
         <div className="m-auto">
           <button className="m-1 font-bold bg-white text-blue-500 border border-blue-500 px-3 py-1 rounded-md flex items-center">
-            <FontAwesomeIcon icon={faChalkboardTeacher} className='text-2xl mr-1'/>Welcome Admin
+            <FontAwesomeIcon icon={faUserTie} className='text-2xl mr-1'/>Welcome Admin
           </button>
         </div>
         <button className='ml-auto items-center'>
